@@ -9,7 +9,7 @@ public class CaesarShiftTests
         Test("abc", 1, "bcd");
         Test("xyz", 1, "yza"); // wrap around check
         Test("hello", 1, "ifmmp");
-        Test("i love cats", 2, "k nqxc ecvu");
+        Test("i love cats", 2, "k nqxg ecvu");
         Test("bruh", 13, "oehu");
         Test("zzz", 1, "aaa");
         Test("why is this due at 11:59", 1, "xiz jt uijt evf bu 11:59");
