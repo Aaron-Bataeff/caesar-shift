@@ -11,7 +11,7 @@ public class CaesarShiftTests
         Test("hello", 1, "ifmmp");
         Test("i love cats", 2, "k nqxc ecvu");
         Test("bruh", 13, "oehu");
-        Test("zzz", 1, "aaa"); 
+        Test("zzz", 1, "aaa");
         Test("why is this due at 11:59", 1, "xiz jt uijt evf bu 11:59");
         Test("HELLO!!!", 1, "IFMMP!!!");
 
@@ -20,7 +20,7 @@ public class CaesarShiftTests
 
     private static void Test(string input, int shift, string expected)
     {
-        string result = ""; // not implemented yet
+        string result = CaesarShift.Shift(input, shift);
 
         if (result == expected)
         {
